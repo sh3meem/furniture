@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --brown:#6c1818;
+}
+body{
+    overflow-x: hidden;
+}
+#logo{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100px;
+}
+ul li{
+    font-size: 20px;
+}
+
+li i{
+    color: rgb(187, 187, 187);
+}
+
+#button{
+    font-size: 21px;
+    background-color: var(--brown);
+    color: white;
+}
+#button:hover{
+    background-color: white;
+    color: var(--brown);
+    border-color: var(--brown);
+}
+@media(min-width:992px) {
+    ul{
+        display: flex;
+        align-items: center;
+    }
+}
+@media(max-width:992px){
+    .nav-item i{
+        display: none;
+    }
+    #contact{
+        margin-left: 0px;
+    }
+}
+
+.main{
+    background-image:url(./img/stylish-scandinavian-living-room-with-design-mint-sofa-furnitures-mock-up-poster-map-plants-eleg-min-1200x675.jpg);
+    width: 100%;
+    height: 118vh;
+    background-attachment: fixed;
+}
+
+.bg{
+    width: 100%;
+    height: 118vh;
+    background-color: rgba(38, 38, 38, 0.395);
+}
+
+.welcome{
+    padding-top: 20% ;
+    padding-left: 8%;
+}
+
+.welcome p{
+    color: white;
+    font-size: 30px;
+}
+.welcome h1 {
+    color: white;
+    font-size: 100px;
+    font-weight: 800px;
+}
+
+@media(max-width:600px){  
+    .welcome p{
+        padding-top: 20%;
+    }  
+    .welcome h1 {
+        font-size: 30px;
+    }
+
+    #contactbtn{
+        color: white;
+        border-color: white;
+        font-size: 20px;
+
+    }
+
+}
+#contactbtn{
+    color: white;
+    border-color: white;
+    font-size: 20px;}
+
+.work {
+    background-image: url(https://marketplace.canva.com/EAFCO6pfthY/1/0/1600w/canva-blue-green-watercolor-linktree-background-F2CyNS5sQdM.jpg);
+    width: 100%;
+    height: 150vh;
+    background-size: cover;
+    padding-top: 7%;
+}
+.work h1{
+    font-size: 50px;
+
+}
+#viewbtn{
+    color: var(--brown);
+    border: 1px solid var(--brown);
+    border-color: var(--brown);
+}
+#viewbtn:hover{
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    background-color: var(--brown);
+}
+#about {
+    background-color: rgb(194, 194, 194);
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+#abimg{
+    border: 7px solid var(--brown);
+    width: 100%;
+    height: 490px;
+}
+#about h1{
+    color: var(--brown);
+}
+.hr{
+    width: 20%;
+    height: 5px;
+    background-color: var(--brown);
+}
+.rose{
+    background-color: rgba(0, 0, 0, 0.486);
+    width: 50%;
+    height: 40px;
+    padding: 1px;
+    color: white;
+    position: absolute;
+    margin-top:-40px;
+}
+.img1{
+    position: relative;
+}
+
+.btnv{
+    justify-content: center;
+    display: flex;
+}
+.testimonials{
+    margin-top: 8%;
+}
+.card{
+    text-align: center;
+    height: 400px;
+
+}
+#crdimg{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 40px;
+    border-radius: 1000px;
+    padding: 40px;
+    width: 180px;
+    height: 180px;
+
+}
+
+.footer{
+    background-color: rgb(83, 83, 83);
+    width: 100%;
+    /* height: 450px; */
+    margin-top: 8%;
+}
+
+@media(max-width:600px){
+    #about{
+        margin-top: 200px;
+    }
+}
